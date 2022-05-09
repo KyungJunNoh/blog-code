@@ -31,7 +31,7 @@ public class HelloController {
     @GetMapping("/warn")
     public String warn(){
         logger.warn("warn!");
-        return "debug!";
+        return "warn!";
     }
 
     @GetMapping("/trace")
